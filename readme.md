@@ -1,5 +1,5 @@
 # Test animated SVG
 
 <p align="center">
-  <img src="/animated.svg" width=470/>
+  <img src="https://brillout.com/tests/animated.svg" width=470/>
 </p>
