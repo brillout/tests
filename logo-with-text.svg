@@ -18,12 +18,10 @@
     >
     <animate attributeName="stroke" values="red;red;green;red" dur="3s" repeatCount="indefinite" />
     <animateTransform attributeType="xml" attributeName="transform" type="rotate"
-    values="360 86 86; 360 86 86; 300 86 86; 300 86 86; 240 86 86; 240 86 86; 180 86 86; 180 86 86; 120 86 86; 120 86 86; 60 86 86; 60 86 86; 0 86 86; 0 86 86"
-    keyTimes="0; 0; 0; 0; 0; 0; 0; 0; 0; 0.3; 0.4; 0.5; 0.6 ;1"
-    keySplines="0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1"
-    calcMode="spline"
-    dur="2.5s" additive="sum" repeatCount="indefinite"
-    />
+    values="360 86 86; 270 86 86; 180 86 86; 90 86 86; 0 86 86; 0 86 86"
+    keyTimes="0; 0.1; 0.2; 0.3; 0.4 ;1"
+    keySplines="0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1"
+    dur="2.5s" additive="sum" repeatCount="indefinite" calcMode="spline" />
     </path>
     <path>
     </path>
