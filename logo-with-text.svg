@@ -67,7 +67,7 @@
        cy="86"
     />
     <path
-			 stroke="url('#color-old')"
+			 stroke="url('#color-gradient')"
        style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round"
        d="m 38.173,86.179 97.732,0 M 114.053,45.459 60.021,126.9 m 0.32102,-81.649 53.394,81.857"
     >
