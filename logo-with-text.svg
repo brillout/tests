@@ -14,7 +14,29 @@
                   dur="2s" repeatCount="indefinite"></animate>
             </stop>
         </linearGradient>
+        <linearGradient id="color-static" x1="50%" y1="0%" x2="50%" y2="100%" >
+            <stop offset="0%" stop-color="#33bdb9">
+            </stop>
+            <stop offset="100%" stop-color="#13e79a">
+            </stop>
+        </linearGradient>
         <linearGradient id="color-gradient" x1="50%" y1="0%" x2="50%" y2="100%" >
+            <stop offset="0%" stop-color="#7A5FFF">
+                <animate attributeName="stop-color"
+                  values="#33bdb9; #01FF89; #33bdb9; #33bdb9"
+                  keyTimes="0; 0.17; 0.5; 1"
+                  keySplines="0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1"
+                  dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#01FF89">
+                <animate attributeName="stop-color"
+                  values="#13e79a; #01FF89; #7A5FFF; #01FF89; #13e79a; #13e79a"
+                  keyTimes="0; 0.3; 0.35; 0.45; 0.5; 1"
+                  keySplines="0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1"
+                  dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+        </linearGradient>
+        <linearGradient id="color-old" x1="50%" y1="0%" x2="50%" y2="100%" >
             <stop offset="0%" stop-color="#7A5FFF">
                 <animate attributeName="stop-color"
                   values="#7A5FFF; #01FF89; #7A5FFF; #7A5FFF"
@@ -45,7 +67,7 @@
        cy="86"
     />
     <path
-			 stroke="url('#color-test')"
+			 stroke="url('#color-old')"
        style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round"
        d="m 38.173,86.179 97.732,0 M 114.053,45.459 60.021,126.9 m 0.32102,-81.649 53.394,81.857"
     >
