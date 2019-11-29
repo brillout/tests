@@ -1,10 +1,10 @@
 const val = (
-  new Array(14)
+  new Array(13)
   .fill()
   .map((_,i) => {
-    const deviance = (i%2===0?0:0.5)*1/13;
-    const step = 1/(13+deviance);
-    const val = currentStep + deviance;
+    const deviance = (i%2===0?0:0.5)*1/12;
+    const step = i*1/12;
+    const val = step + deviance;
     console.log(JSON.stringify({
       i,
       step,
