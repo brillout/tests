@@ -1,4 +1,14 @@
 <svg viewBox="0 0 916.92932 225.20002" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%" >
+            <stop offset="0%" stop-color="#7A5FFF">
+                <animate attributeName="stop-color" values="#7A5FFF; #01FF89; #7A5FFF" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#01FF89">
+                <animate attributeName="stop-color" values="#01FF89; #7A5FFF; #01FF89" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+        </linearGradient>
+    </defs>
   <g transform="matrix(1.3020418,0,0,1.3020418,-0.38526785,0.68230193)">
     <circle
        style="fill:#4a4a4a"
@@ -13,11 +23,12 @@
        cy="86"
     />
     <path
-       style="stroke:#01b9a7;stroke-width:20;stroke-linecap:round;stroke-linejoin:round"
+			 stroke="url('#logo-gradient')"
+       style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round"
        d="m 38.173,86.179 97.732,0 M 114.053,45.459 60.021,126.9 m 0.32102,-81.649 53.394,81.857"
     >
-    <animate attributeName="stroke" values="red;red;green;red" dur="3s" repeatCount="indefinite" />
     <!--
+    <animate attributeName="stroke" values="red;red;green;red" dur="3s" repeatCount="indefinite" />
     new Array(14).fill().map((_,i) => i/13).join('; ')
     -->
     <animateTransform attributeType="xml" attributeName="transform" type="rotate"
